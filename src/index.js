@@ -28,7 +28,7 @@ function user(
   this.profile_picture = profile_picture;
   this.shopping_cart = shopping_cart;
 }
-const user1 = new user('Amir', 'Iqbal', '9 Dec 1998', 'Faisalabad', 'Pakistan', 'amir@gmail.com', '0312345453', 'Technit', image, ['Cups', 'Mugs', 'Jugs'])
+const user1 = new user('student', '100451', '9 Dec 1998', 'Bermingham', 'London', 'student@gmail.com', '123124343', 'Technit', image, ['Cups', 'Mugs', 'Jugs'])
 const UserData = (
   <Table striped bordered hover>
     <thead>
